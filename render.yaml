@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: django-app
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn proyectoUno.wsgi:application"
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: proyectoUno.settings
+      - key: PYTHON_VERSION
+        value: 3.11
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: False
