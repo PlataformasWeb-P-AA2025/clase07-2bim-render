@@ -28,7 +28,7 @@ SECRET_KEY = '^wfd@g&ux1c90)a095ba1evi$7dez*^klty@5ze(wdsh-%84!@'
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ["0.0.0.0", "127.0.0.1"]
+ALLOWED_HOSTS = ["0.0.0.0", "127.0.0.1", "clase07-2bim-render.onrender.com"]
 
 
 
